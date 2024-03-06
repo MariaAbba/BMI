@@ -1,0 +1,62 @@
+section.banner{
+  width: 100%;
+  min-height: 60vh;
+  max-height: 65vh;
+  position: relative;
+}
+
+.swiper-banner{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.swiper-banner .image {
+  width: 100%;
+  height: 100%;
+}
+.swiper-banner .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner__content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner__content .banner__inner{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+@media only screen and (min-width: 992px){
+  .banner__content .banner__inner{
+    align-items: flex-start;
+    text-align: start;
+    max-width: 1320px;
+    padding: 15px 30px;
+  }
+}
+@media only screen and (min-width: 1400px){
+  .banner__content .banner__inner{
+    padding: 15px;
+  }
+}

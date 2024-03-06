@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI website</title>
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script
+      src="https://kit.fontawesome.com/530570637a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="body-overlay"></div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="main-header">
+            <div class="header__inner">
+              <a class="logo" href="#"><img src="img/logo.png" alt="Logo" /></a>
+              <a class="sticky-logo d-none" href="#"><img src="img/fixed-hd-logo.png" alt="Logo" /></a>
+              <div class="header__inner-contacts">
+                <div class="header__top-contacts">
+                  <ul class="header__top-social line-border">
+                    <li class="header__top-item">
+                      <a class="header__top-link" href="#"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li class="header__top-item">
+                      <a class="header__top-link" href="#"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li class="header__top-item">
+                      <a class="header__top-link" href="#"
+                        ><i class="fa-brands fa-youtube"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <div class="header__top-mail line-border">
+                    <div class="header__mail-img">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a class="header-mail" href="mailto:info@gmail.com"
+                      >info@gmail.com</a
+                    >
+                  </div>
+                  <div class="header__top-phone line-border">
+                    <div class="header__phone-img">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <a class="header__top-num" href="tel:+994509999999"
+                      >+994 50 999 99 99</a
+                    >
+                  </div>
+                </div>
+                <div class="header__inner-bottom">
+                  <div class="header__lang">
+                    <div class="select">
+                      <span class="selected">AZ</span>
+                      <div class="caret"></div>
+                    </div>
+                    <ul class="header__lang-menu">
+                      <li class="header__lang-item">EN</li>
+                      <li class="header__lang-item">RU</li>
+                    </ul>
+                  </div>
+                  <div class="search">
+                    <form action="" method="GET" class="search-bar">
+                      <input type="text" placeholder="Axtar" />
+                      <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav class="menu">
+              <ul class="menu-list">
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="index.html">Ana Səhifə</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="about.html"
+                    >Haqqımızda</a
+                  >
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="trainings.html">Təlimlər</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="trainers.html">Təlimçilər</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="forums.html">Forumlar</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="news.html">Xəbərlər</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link menu-list--active" href="contacts.html"
+                    >Bizimlə Əlaqə</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mobile__header">
+            <div class="mobile__header-inner">
+              <a class="logo" href="#"><img src="img/logo.png" alt="Logo" /></a>
+              <div class="mobile-menu__btns">
+                <button class="mobile__search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <div class="search-menu__overlay">
+                  <div class="search-list">
+                    <form action="" method="GET" class="search-form">
+                      <input type="text" placeholder="Axtar" />
+                      <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </div>
+                  <div class="search-close">
+                    <button class="search-close__button">
+                      <i class="fa-regular fa-circle-xmark"></i>
+                    </button>
+                  </div>
+                </div>
+                <button class="burger-menu__button">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              </div>
+            </div>
+            <div class="burger-menu__overlay">
+              <div class="burger-menu__wrapper">
+                <div class="mobile-top">
+                  <div class="mobile-top-img">
+                    <a class="mobile-logo" href="#"
+                      ><img src="img/vertical.svg" alt="Logo"
+                    /></a>
+                  </div>
+                  <div>
+                    <button class="burger-close__button">
+                      <i class="fa-regular fa-circle-xmark"></i>
+                    </button>
+                  </div>
+                </div>
+                <ul class="menu-list">
+                  <li class="menu-list__item">
+                    <a class="menu-list__link" href="index.html">Ana Səhifə</a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a class="menu-list__link" href="about.html"
+                      >Haqqımızda</a
+                    >
+                  </li>
+                  <li class="menu-list__item">
+                    <a class="menu-list__link" href="trainings.html"
+                      >Təlimlər</a
+                    >
+                  </li>
+                  <li class="menu-list__item">
+                    <a class="menu-list__link" href="trainers.html"
+                      >Təlimçilər</a
+                    >
+                  </li>
+                  <li class="menu-list__item">
+                    <a class="menu-list__link" href="forums.html">Forumlar</a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a class="menu-list__link" href="news.html">Xəbərlər</a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a class="menu-list__link  menu-list--active" href="contacts.html"
+                      >Bizimlə Əlaqə</a
+                    >
+                  </li>
+                </ul>
+                <div class="header__top-mail">
+                  <span><i class="fa-solid fa-envelope"></i></span>
+                  <a class="header-mail" href="mailto:info@gmail.com"
+                    >info@gmail.com</a
+                  >
+                </div>
+                <div class="header__top-phone line-border">
+                  <span><i class="fa-sharp fa-solid fa-phone"></i></span>
+                  <a class="header__top-num" href="tel:+994509999999"
+                    >+994 50 999 99 99</a
+                  >
+                </div>
+                <ul class="header__top-social">
+                  <li class="header__top-item">
+                    <a class="header__top-link" href="#"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li class="header__top-item">
+                    <a class="header__top-link" href="#"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li class="header__top-item">
+                    <a class="header__top-link" href="#"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <!-- ? =========================== BANNER -->
+    <section class="banner">
+      <div class="swiper swiper-banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="img/banner.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="img/skyscrapers-header.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner__content">
+        <div class="banner__inner">
+          <h1 class="banner__title">BUSINESS MANAGEMENT INSTITUTE</h1>
+          <a class="banner__link" href="#">Ətraflı</a>
+        </div>
+      </div>
+    </section>
+        <!-- ? =================================== CONTACTS -->
+        <section class="contacts">
+          <div class="container">
+            <h2 class="contacts__title title title-underlined">BİZİMLƏ ƏLAQƏ</h2>
+            <div class="contacts__inner">
+              <div class="contacts__content">
+                <div class="contacts__top">
+                  <div class="contacts__top-phone line-border">
+                         <div class="contacts__phone-img">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <a class="contacts__top-num" href="tel:+994509999999"
+                      >+994 50 999 99 99</a
+                    >
+                  </div>
+                              <div class="contacts__top-mail line-border">
+                         <div class="contacts__mail-img">
+                         <i class="fa-solid fa-envelope"></i>
+                    </div>
+                     <a class="contacts-mail" href="mailto:info@gmail.com"
+                      >info@gmail.com</a
+                    >
+                  </div>
+                                    <div class="contacts__top-location">
+                         <div class="contacts__location-img">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                  <span class="contacts__location-city">Baki seheri</span>
+                  </div>
+                                  </div>
+                  <div class="contacts__form">
+                    <h5 class="contacts__form-title">Müraciət Formu</h5>
+                    <div class="contacts__input">
+                      <input
+                        class="contacts"
+                        type="text"
+                        placeholder=" Adınız, Soyadınız *
+"
+                      />
+                      <label class="contacts__label"></label>
+                    </div>
+                    <div class="contacts__input">
+                      <input
+                        class="contacts"
+                        type="text"
+                        placeholder=" Telefon *
+"
+                      />
+                      <label class="contacts__label"></label>
+                    </div>
+                    <div class="contacts__input">
+                      <input
+                        class="contacts"
+                        type="text"
+                        placeholder=" E-poct *
+"
+                      />
+                      <label class="contacts__label"></label>
+                    </div>
+                    <div class="contacts__textarea">
+                      <textarea name="" id="" placeholder="Mesjiniz"></textarea>
+                    </div>
+                    <div class="contacts__bottom">
+                    <button class="contacts__btn" >Göndər</button> 
+                                          <ul class="contacts__top-social">
+                    <li class="contacts__top-item">
+                      <a class="contacts__top-link" href="#"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li class="contacts__top-item">
+                      <a class="contacts__top-link" href="#"
+                        >
+                              <i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="contacts__top-item">
+                      <a class="contacts__top-link" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                       </a>
+                    </li>
+                  </ul>             
+                    </div>
+
+                  </div>
+              </div>
+              <div class="contacts__map">
+                <iframe class="iframe__map"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d97239.68624032351!2d49.832688957519515!3d40.39245038239331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030874c23751181%3A0x4eafe434a8447e5e!2sAyna%20Sultanova%20heyk%C9%99li!5e0!3m2!1saz!2sus!4v1682335761030!5m2!1saz!2sus"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ? =========================== FORM   -->
+        <section class="form">
+          <div class="container">
+            <div class="title-wrapper">
+              <div class="title__lines">
+                <h2 class="form__title title">MÜRACİƏT ET</h2>
+              </div>
+            </div>
+            <form class="apply__form" action="">
+              <div class="apply__inner">
+                <div class="apply select">
+                  <label class="select__label" for="#">Təlim seç*</label>
+                  <select
+                    id="training-select"
+                    class="select__input"
+                    name="training"
+                  >
+                    <option selected="" disabled="">Təlimi seç</option>
+                    <option>Marketing AIR</option>
+                    <option>
+                      Vaxtın və Tapşırıqların Səmərəli İdarə Edilməsi Təlimi
+                    </option>
+                    <option>ƏMAS da praktiki iş</option>
+                    <option>Vergi Yoxlamaları və Vergi Riskləri</option>
+                    <option>Vergi Uçotu</option>
+                    <option>
+                      0-dan başlayanlar üçün mühasibatlıq+ 1 C (8.3)
+                    </option>
+                    <option>HR-lar üçün Excel</option>
+                    <option>
+                      Təqdimat Bacarıqları və Təlimçilər üçün təlim
+                    </option>
+                    <option>HR Assistent Təlimi</option>
+                    <option>Sosial Media Marketinqi</option>
+                    <option>Güclü Marka Yaratma və İdarə Etmə</option>
+                    <option>Marketinq Strategiyaları Təlimi</option>
+                    <option>
+                      0-dan başlayanlar üçün Marketinq Mütəxəssisi Təlimi
+                    </option>
+                    <option>HR Direktor</option>
+                    <option>
+                      Şirkətlərdə Təlim və İnkişaf Sisteminin Qurulması
+                    </option>
+                    <option>İnsan Resurslarının Avtomatlaşdırılması</option>
+                    <option>İnsan Resurslarının İdarə Edilməsi</option>
+                    <option>İşə Qəbul və Seçim Mərhələləri</option>
+                    <option>Əmək Haqqı Hesablaması</option>
+                    <option>Əmək Məcəlləsi və Kadr Kargüzarlığı</option>
+                    <option>
+                      Rəhbərlər üçün Strategiyanın Effektiv Planlaşdırılması və
+                      İcrası
+                    </option>
+                    <option>
+                      Rəhbərlər üçün: Auditoriya önündə təsirli nitq mədəniyyəti
+                      təlimi
+                    </option>
+                    <option>Rəhbərlər üçün Maliyyə Təlimi</option>
+                    <option>
+                      Rəhbərlər üçün Liderlik və Komanda İdarəçiliyi
+                    </option>
+                    <option>Rəhbərlər üçün HR Təlimi</option>
+                    <option>
+                      Rəhbərlər üçün Performans Menecment və İşçilərin
+                      Motivasiyası
+                    </option>
+                    <option>Rəhbərlər üçün Marketinq Təlimi</option>
+                  </select>
+                </div>
+                <div class="apply__name">
+                  <label class="apply__label" for="#">Ad, Soyad**</label>
+                  <input
+                    class="apply__input"
+                    type="text"
+                    placeholder="Ad, Soyad"
+                  />
+                </div>
+                <div class="apply__workplace">
+                  <label class="apply__label" for="#">İş yeri*</label>
+                  <input
+                    class="apply__input"
+                    type="text"
+                    placeholder="İş yeri"
+                  />
+                </div>
+                <div class="apply__position">
+                  <label class="apply__label" for="#">Vəzifə*</label>
+                  <input
+                    class="apply__input"
+                    type="text"
+                    placeholder="Vəzifə"
+                  />
+                </div>
+                <div class="apply__mail">
+                  <label class="apply__label" for="#">E-mail*</label>
+                  <input
+                    class="apply__input"
+                    type="text"
+                    placeholder="E-mail"
+                  />
+                </div>
+
+                <div class="apply__phone">
+                  <label class="apply__label" for="#">Telefon*</label>
+                  <input
+                    class="apply__input"
+                    type="text"
+                    placeholder="Telefon"
+                  />
+                </div>
+              </div>
+              <div class="apply__btn">
+                <input
+                  class="apply__submit"
+                  type="submit"
+                  value="Müraciət göndər"
+                />
+              </div>
+            </form>
+          </div>
+        </section>
+        <a href="#" class="to-top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__logo">
+              <a href="#"
+                ><img class="footer__img" src="img/footer-logo.svg" alt=""
+              /></a>
+            </div>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Xidmət şəbəkəsi</p>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="about.html">Haqqımızda</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="trainings.html">Təlimlər</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="trainers.html">Təlimçilər</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="forums.html">Forumlar</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="news.html">Xəbərlər</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="contacts.html"
+                  >Bizimlə Əlaqə</a
+                >
+              </li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Faydalı linklər</p>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Tez-tez soruşulanlar</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Karyera </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Xidmət şəbəkəsi</a>
+              </li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Əlaqə</p>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="mailto:info@gmail.com"
+                  ><span class="footer-link__icon"
+                    ><i class="fa-solid fa-envelope"></i></span
+                  >info@gmail.com</a
+                >
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="tel:+994509999999"
+                  ><span class="footer-link__icon"
+                    ><i class="fa-sharp fa-solid fa-phone"></i></span
+                  >994509999999</a
+                >
+              </li>
+            <li>
+              <ol class="footer__social">
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ol>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <p class="copyright__text">&#169; All Rights Reserved</p>
+      </div>
+      <button class="enquiry__button">
+        <img class="enquiry__icon" src="img/muraciet.png" alt="" />
+        Müraciət et
+      </button>
+      <div class="enquiry__overlay">
+        <div class="enquiry__top">
+          <h3 class="enquiry__title">Müraciət et</h3>
+          <button class="enquiry-close__button">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </button>
+        </div>
+        <form class="enquiry__form" action="#">
+          <div class="enquiry__inner">
+            <div class="enquiry__category">
+              <label class="enquiry__label" for="telim-select">Kateqoriya seç*</label>
+              <select id="telim-select" class="enquiry__select">
+                <option selected="" disabled="">Kateqoriya daxil edin</option>
+                <option>Kateqoriya 1</option>
+                <option>Kateqoriya 2</option>
+                <option>Kateqoriya 3</option>
+              </select>
+            </div>
+            <div class="enquiry__category">
+              <label class="enquiry__label" for="category">Təlim seç*</label>
+              <select id="category" class="enquiry__select" name="category">
+                <option selected="" disabled="">Təlimi seç</option>
+                <option>Marketing AIR</option>
+                <option>
+                  Vaxtın və Tapşırıqların Səmərəli İdarə Edilməsi Təlimi
+                </option>
+                <option>ƏMAS da praktiki iş</option>
+                <option>Vergi Yoxlamaları və Vergi Riskləri</option>
+                <option>Vergi Uçotu</option>
+                <option>0-dan başlayanlar üçün mühasibatlıq+ 1 C (8.3)</option>
+                <option>HR-lar üçün Excel</option>
+                <option>Təqdimat Bacarıqları və Təlimçilər üçün təlim</option>
+                <option>HR Assistent Təlimi</option>
+                <option>Sosial Media Marketinqi</option>
+                <option>Güclü Marka Yaratma və İdarə Etmə</option>
+                <option>Marketinq Strategiyaları Təlimi</option>
+                <option>
+                  0-dan başlayanlar üçün Marketinq Mütəxəssisi Təlimi
+                </option>
+                <option>HR Direktor</option>
+                <option>
+                  Şirkətlərdə Təlim və İnkişaf Sisteminin Qurulması
+                </option>
+                <option>İnsan Resurslarının Avtomatlaşdırılması</option>
+                <option>İnsan Resurslarının İdarə Edilməsi</option>
+                <option>İşə Qəbul və Seçim Mərhələləri</option>
+                <option>Əmək Haqqı Hesablaması</option>
+                <option>Əmək Məcəlləsi və Kadr Kargüzarlığı</option>
+                <option>
+                  Rəhbərlər üçün Strategiyanın Effektiv Planlaşdırılması və
+                  İcrası
+                </option>
+                <option>
+                  Rəhbərlər üçün: Auditoriya önündə təsirli nitq mədəniyyəti
+                  təlimi
+                </option>
+                <option>Rəhbərlər üçün Maliyyə Təlimi</option>
+                <option>Rəhbərlər üçün Liderlik və Komanda İdarəçiliyi</option>
+                <option>Rəhbərlər üçün HR Təlimi</option>
+                <option>
+                  Rəhbərlər üçün Performans Menecment və İşçilərin Motivasiyası
+                </option>
+                <option>Rəhbərlər üçün Marketinq Təlimi</option>
+              </select>
+            </div>
+            <div class="enquiry__name">
+              <label class="enquiry__label" for="name">Ad, Soyad**</label>
+              <input class="enquiry__input" id="name" name="name" type="text" placeholder="Ad, Soyad" />
+            </div>
+            <div class="enquiry__workplace">
+              <label class="enquiry__label" for="workplace">İş yeri*</label>
+              <input class="enquiry__input" id="workplace" name="workplace" type="text" placeholder="İş yeri" />
+            </div>
+            <div class="enquiry__position">
+              <label class="enquiry__label" for="position">Vəzifə*</label>
+              <input class="enquiry__input" id="position" type="text" placeholder="Vəzifə" />
+            </div>
+            <div class="enquiry__mail">
+              <label class="enquiry__label" for="mail">E-mail*</label>
+              <input class="enquiry__input" id="mail" type="text" placeholder="E-mail" />
+            </div>
+      
+            <div class="enquiry__phone">
+              <label class="enquiry__label" for="phone">Telefon*</label>
+              <input class="enquiry__input" id="phone" type="text" placeholder="Telefon" />
+            </div>
+          </div>
+          <div class="enquiry__btn">
+            <input class="enquiry__submit" type="submit" value="Müraciət göndər" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI website</title>
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <script
+      src="https://kit.fontawesome.com/530570637a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/banner_.css" />
+  </head>
+
+  <body>
+    <section class="banner">
+      <div class="swiper swiper-banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="img/banner.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image">
+              <img src="img/skyscrapers-header.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner__content">
+        <div class="banner__inner">
+          <h1 class="banner__title">BUSINESS MANAGEMENT INSTITUTE</h1>
+          <a class="banner__link" href="#">Ətraflı</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper5 = new Swiper(".swiper.swiper-banner", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    </script>
+  </body>
+</html>

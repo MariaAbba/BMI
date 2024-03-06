@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI website</title>
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <script src="https://kit.fontawesome.com/530570637a.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="body-overlay"></div>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="main-header">
+          <div class="header__inner">
+            <a class="logo" href="index.html" title="Home"><img src="img/logo.png" alt="Logo" /></a>
+            <a class="sticky-logo d-none" href="#"><img src="img/fixed-hd-logo.png" alt="Logo" /></a>
+            <div class="header__inner-contacts">
+              <div class="header__top-contacts">
+                <ul class="header__top-social line-border">
+                  <li class="header__top-item">
+                    <a class="header__top-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="header__top-item">
+                    <a class="header__top-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li class="header__top-item">
+                    <a class="header__top-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                </ul>
+                <div class="header__top-mail line-border">
+                  <div class="header__mail-img">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <a class="header-mail" href="mailto:info@gmail.com">info@gmail.com</a>
+                </div>
+                <div class="header__top-phone line-border">
+                  <div class="header__phone-img">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <a class="header__top-num" href="tel:+994509999999">+994 50 999 99 99</a>
+                </div>
+              </div>
+              <div class="header__inner-bottom">
+                <div class="header__lang">
+                  <div class="select">
+                    <span class="selected">AZ</span>
+                    <div class="caret"></div>
+                  </div>
+                  <ul class="header__lang-menu">
+                    <li class="header__lang-item">EN</li>
+                    <li class="header__lang-item">RU</li>
+                  </ul>
+                </div>
+                <div class="search">
+                  <form action="#" method="GET" class="search-bar">
+                    <input type="text" placeholder="Axtar" />
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-list__item">
+                <a class="menu-list__link menu-list--active" href="#">Ana Səhifə</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="about.html">Haqqımızda</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="trainings.html">Təlimlər</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="trainers.html">Təlimçilər</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="forums.html">Forumlar</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="news.html">Xəbərlər</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="contacts.html">Bizimlə Əlaqə</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mobile__header">
+          <div class="mobile__header-inner">
+            <a class="logo" href="#"><img src="img/logo.png" alt="Logo" /></a>
+            <div class="mobile-menu__btns">
+              <button class="mobile__search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <div class="search-menu__overlay">
+                <div class="search-list">
+                  <form action="#" method="GET" class="search-form">
+                    <input type="text" placeholder="Axtar" />
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="search-close">
+                  <button class="search-close__button">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                  </button>
+                </div>
+              </div>
+              <button class="burger-menu__button">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="burger-menu__overlay">
+            <div class="burger-menu__wrapper">
+              <div class="mobile-top">
+                <div class="mobile-top-img">
+                  <a class="mobile-logo" href="#"><img src="img/vertical.svg" alt="Logo" /></a>
+                </div>
+                <div>
+                  <button class="burger-close__button">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                  </button>
+                </div>
+              </div>
+              <ul class="menu-list">
+                <li class="menu-list__item">
+                  <a class="menu-list__link menu-list--active" href="#">Ana Səhifə</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="about.html">Haqqımızda</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="trainings.html">Təlimlər</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="trainings.html">Təlimçilər</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="forums.html">Forumlar</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="news.html">Xəbərlər</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="contacts.html">Bizimlə Əlaqə</a>
+                </li>
+              </ul>
+              <div class="header__top-mail">
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <a class="header-mail" href="mailto:info@gmail.com">info@gmail.com</a>
+              </div>
+              <div class="header__top-phone line-border">
+                <span><i class="fa-sharp fa-solid fa-phone"></i></span>
+                <a class="header__top-num" href="tel:+994509999999">+994 50 999 99 99</a>
+              </div>
+              <ul class="header__top-social">
+                <li class="header__top-item">
+                  <a class="header__top-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li class="header__top-item">
+                  <a class="header__top-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="header__top-item">
+                  <a class="header__top-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- ? =========================== BANNER -->
+      <section class="banner">
+        <div class="swiper swiper-banner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image">
+                <img src="img/banner.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img src="img/skyscrapers-header.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner__content">
+          <div class="banner__inner">
+            <h1 class="banner__title">BUSINESS MANAGEMENT INSTITUTE</h1>
+            <a class="banner__link" href="#">Ətraflı</a>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== NUMBERS -->
+      <div class="numbers">
+        <div class="container">
+          <div class="numbers__inner">
+            <div class="numbers__item">
+              <div class="numbers__img">
+                <img class="numbers__icon" src="img/num-1.png" alt="" />
+              </div>
+              <div>
+                <p class="numbers__text">
+                  Təşkilati dəstək olduğumuz form sayı
+                </p>
+              </div>
+              <div class="numbers__numbers" data-count="455">0</div>
+            </div>
+            <div class="numbers__item">
+              <div class="numbers__img">
+                <img class="numbers__icon" src="img/num-2.png" alt="" />
+              </div>
+              <div>
+                <p class="numbers__text">Təşkil edilmiş forum sayı</p>
+              </div>
+              <div class="numbers__numbers" data-count="3">0</div>
+            </div>
+            <div class="numbers__item">
+              <div class="numbers__img">
+                <img class="numbers__icon" src="img/num-3.png" alt="" />
+              </div>
+              <div>
+                <p class="numbers__text">Məzun sayı</p>
+              </div>
+              <div class="numbers__numbers" data-count="7000">0</div>
+            </div>
+            <div class="numbers__item">
+              <div class="numbers__img">
+                <img class="numbers__icon" src="img/num-4.png" alt="" />
+              </div>
+              <div>
+                <p class="numbers__text">Korporativ təlim sayı</p>
+              </div>
+              <div class="numbers__numbers" data-count="40">0</div>
+            </div>
+            <div class="numbers__item">
+              <div class="numbers__img">
+                <img class="numbers__icon" src="img/num-5.png" alt="" />
+              </div>
+              <div>
+                <p class="numbers__text">Keçirilmiş təlim sayı</p>
+              </div>
+              <div class="numbers__numbers" data-count="500">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ? =========================== WHY-US -->
+      <section class="why-us">
+        <div class="container">
+          <h2 class="why-us__title">Niyə Biz?</h2>
+          <div class="why-us__inner">
+            <div class="why-us__content">
+              <p class="why-us__descr">
+                EN Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Cumque unde possimus, molestias pariatur necessitatibus
+                deleniti repellendus eius consequuntur eligendi adipisci enim
+                impedit, et est id quae ad inventore ullam tenetur iure animi
+                dignissimos perferendis provident. Dignissimos excepturi
+                recusandae nesciunt ratione dolores atque non soluta
+                voluptatum, labore consequuntur voluptates sequi minus,
+                sapiente ad delectus, assumenda fugiat cum. Architecto dolorem
+                iste, a alias non repellat saepe deserunt omnis voluptatibus
+                repudiandae blanditiis culpa eligendi illo error assumenda
+                numquam inventore doloremque ipsa dolores. Aliquam sit amet,
+                praesentium ex eligendi, ipsam quas sed natus atque sunt
+                maxime. Obcaecati necessitatibus dignissimos provident. Autem
+                dolor impedit nisi!
+              </p>
+              <div class="why-us__stats">
+                <div class="why-us-stats__item">
+                  <div class="why-us__icon">
+                    <img src="img/why-us-1.png" alt="" />
+                  </div>
+                  <div class="why-us__numbers">
+                    <p class="why-us__num">124</p>
+                    <span class="why-us__text">Lorem 1</span>
+                  </div>
+                </div>
+                <div class="why-us-stats__item">
+                  <div class="why-us__icon">
+                    <img src="img/why-us-2.png" alt="" />
+                  </div>
+                  <div class="why-us__numbers">
+                    <p class="why-us__num">124</p>
+                    <span class="why-us__text">Lorem 1</span>
+                  </div>
+                </div>
+                <div class="why-us-stats__item">
+                  <div class="why-us__icon">
+                    <img src="img/why-us-3.png" alt="" />
+                  </div>
+                  <div class="why-us__numbers">
+                    <p class="why-us__num">124</p>
+                    <span class="why-us__text">Lorem 1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="why-us__video">
+              <img class="why-us__video-img" src="img/why-us__video.png" alt="" />
+              <div class="why-us__video-icon">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=0O2aH4XLbto"><i
+                    class="fa-regular fa-circle-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="title-wrapper">
+            <div class="title__lines">
+              <h2 class="training__title title">TƏLİMLƏR</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== TRAINING -->
+      <section class="training">
+        <div class="training__inner">
+          <div class="training__item" style="background-image: url(img/vid-1.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/online.png" alt="" />
+                  <span class="top-btn__text">Online</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">Rəhbərlər üçün təlimlər</h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-2.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn btn__text-blue">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Offline</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title item__text-blue">
+                  Marketinq təlimləri
+                </h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-3.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Online</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">
+                  İnsan Resurslarının İdarəedilməsi
+                </h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-4.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn btn__text-blue">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Offline</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title item__text-blue">Təlim 4</h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-5.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Online</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">Rəhbərlər üçün təlimlər</h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-6.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Online</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">Rəhbərlər üçün təlimlər</h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-3.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Online</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">
+                  İnsan Resurslarının İdarəedilməsi
+                </h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-4.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn btn__text-blue">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Offline</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">Rəhbərlər üçün təlimlər</h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-5.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Offline</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">Rəhbərlər üçün təlimlər</h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+          <div class="training__item" style="background-image: url(img/vid-3.jpg)">
+            <div class="bg-background"></div>
+            <div class="training__item-inner">
+              <div>
+                <button class="top-btn">
+                  <img class="top-btn__img" src="img/offline.png" alt="" />
+                  <span class="top-btn__text">Online</span>
+                </button>
+              </div>
+              <div class="training__content">
+                <h3 class="training__item-title">
+                  İnsan Resurslarının İdarəedilməsi
+                </h3>
+                <p class="training__text">Alt kateqoriya</p>
+              </div>
+              <div class="training-links">
+                <a class="training__link left-link" href="">Ətraflı</a>
+                <a class="training__link" href="">Qeydiyyat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== TRAINERS -->
+      <div class="trainers">
+        <div class="container">
+          <div class="title-wrapper">
+            <div class="title__lines">
+              <h2 class="training__title title">
+                PEŞƏKAR TƏLİMÇİLƏRDƏN ÖYRƏN
+              </h2>
+            </div>
+          </div>
+          <div class="swiper swiper-trainers">
+            <div class="swiper-wrapper swiper-trainers">
+              <div class="swiper-slide swiper-trainers">
+                <div class="swiper-slide__item">
+                  <div class="swiper-slide__photo">
+                    <img class="swiper-slide__img" src="img/trainers-1.jpg" alt="" />
+                    <div class="bg-overlay overlay-top"></div>
+                  </div>
+                  <div class="swiper-slide__icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__title">Vüsal Nasirov</p>
+                    <p class="swiper-slide__subtitle">Təlimçi 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__item">
+                  <div class="swiper-slide__photo">
+                    <img class="swiper-slide__img" src="img/trainers-2.png" alt="" />
+                    <div class="bg-overlay overlay-top"></div>
+                  </div>
+                  <div class="swiper-slide__icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__title">Aysel Aliyeva</p>
+                    <p class="swiper-slide__subtitle">Təlimçi 2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__item">
+                  <div class="swiper-slide__photo">
+                    <img class="swiper-slide__img" src="img/trainers-3.jpg" alt="" />
+                    <div class="bg-overlay overlay-top"></div>
+                  </div>
+                  <div class="swiper-slide__icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__title">Kənan Məmmədov</p>
+                    <p class="swiper-slide__subtitle">Təlimçi 3</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__item">
+                  <div class="swiper-slide__photo">
+                    <img class="swiper-slide__img" src="img/trainers-4.jpg" alt="" />
+                    <div class="bg-overlay overlay-top"></div>
+                  </div>
+                  <div class="swiper-slide__icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__title">Aygün Cabbarlı</p>
+                    <p class="swiper-slide__subtitle">Təlimçi 4</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__item">
+                  <div class="swiper-slide__photo">
+                    <img class="swiper-slide__img" src="img/trainers-4.jpg" alt="" />
+                    <div class="bg-overlay overlay-top"></div>
+                  </div>
+                  <div class="swiper-slide__icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                  <div class="swiper-slide__text">
+                    <p class="swiper-slide__title">Aygün Cabbarlı</p>
+                    <p class="swiper-slide__subtitle">Təlimçi 4</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ? =========================== EVENTS -->
+      <section class="events">
+        <div class="container">
+          <div class="title-wrapper events">
+            <div class="title__lines events">
+              <h2 class="events__title title">
+                TƏŞKİLATÇISI VƏ TƏŞKİLATİ DƏSTƏKÇİSİ OLDUĞUMUZ TƏDBİRLƏR
+              </h2>
+            </div>
+          </div>
+          <div class="events__inner">
+            <div class="events-inner__item">
+              <div class="events__inner-overlay">
+                <a class="event__btn" href="#">Tedbir 1</a>
+              </div>
+              <img class="events-inner__img" src="img/events-1.jpg" alt="" />
+              <img class="events-inner__logo" src="img/events-logo-2.png" alt="" />
+            </div>
+            <div class="events-inner__item">
+              <div class="events__inner-overlay">
+                <a class="event__btn" href="#">Tedbir 2</a>
+              </div>
+              <img class="events-inner__img" src="img/events-2.jpg" alt="" />
+              <img class="events-inner__logo" src="img/events-logo-1.png" alt="" />
+            </div>
+            <div class="events-inner__item">
+              <div class="events__inner-overlay">
+                <a class="event__btn" href="#">Tedbir 3</a>
+              </div>
+              <img class="events-inner__img" src="img/events-3.jpg" alt="" />
+              <img class="events-inner__logo" src="img/events-logo-2.png" alt="" />
+            </div>
+            <div class="events-inner__item">
+              <div class="events__inner-overlay">
+                <a class="event__btn" href="#">Tedbir 4</a>
+              </div>
+              <img class="events-inner__img" src="img/events-4.jpg" alt="" />
+              <img class="events-inner__logo" src="img/events-logo-1.png" alt="" />
+            </div>
+            <div class="events-inner__item">
+              <div class="events__inner-overlay">
+                <a class="event__btn" href="#">Tedbir 5</a>
+              </div>
+              <img class="events-inner__img" src="img/events-5.jpg" alt="" />
+              <img class="events-inner__logo" src="img/events-logo-2.png" alt="" />
+            </div>
+            <div class="events-inner__item">
+              <div class="events__inner-overlay">
+                <a class="event__btn" href="#">Tedbir 6</a>
+              </div>
+              <img class="events-inner__img" src="img/events-6.jpg" alt="" />
+              <img class="events-inner__logo" src="img/events-logo-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== NEWS -->
+      <section class="news">
+        <div class="container">
+          <div class="title-wrapper">
+            <div class="title__lines news">
+              <h2 class="news__title title">XƏBƏRLƏR</h2>
+            </div>
+          </div>
+          <div class="swiper swiper-news">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="swiper-news__item">
+                  <img class="news__img" src="img/news-1.png" alt="" />
+                  <h4 class="news__title">LOREM IPSUM IS SIMPLY</h4>
+                  <p class="swiper-news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem facere dolore earum minus incidunt, corrupti
+                    maiores quaerat excepturi. Magnam unde eos temporibus hic
+                    beatae repellendus praesentium voluptatum at iure
+                    laudantium fuga ratione cum, vitae voluptates.
+                  </p>
+                  <a class="news__link" href="#">Ətraflı</a>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="swiper-news__item">
+                  <img class="news__img" src="img/news-2.png" alt="" />
+                  <h4 class="news__title">LOREM IPSUM IS SIMPLY</h4>
+                  <p class="swiper-news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem facere dolore earum minus incidunt, corrupti
+                    maiores quaerat excepturi. Magnam unde eos temporibus hic
+                    beatae repellendus praesentium voluptatum at iure
+                    laudantium fuga ratione cum, vitae voluptates.
+                  </p>
+                  <a class="news__link" href="#">Ətraflı</a>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="swiper-news__item">
+                  <img class="news__img" src="img/news-3.jpg" alt="" />
+                  <h4 class="news__title">LOREM IPSUM IS SIMPLY</h4>
+                  <p class="swiper-news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem facere dolore earum minus incidunt, corrupti
+                    maiores quaerat excepturi. Magnam unde eos temporibus hic
+                    beatae repellendus praesentium voluptatum at iure
+                    laudantium fuga ratione cum, vitae voluptates.
+                  </p>
+                  <a class="news__link" href="#">Ətraflı</a>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="swiper-news__item">
+                  <img class="news__img" src="img/news-1.png" alt="" />
+                  <h4 class="news__title">LOREM IPSUM IS SIMPLY</h4>
+                  <p class="swiper-news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem facere dolore earum minus incidunt, corrupti
+                    maiores quaerat excepturi. Magnam unde eos temporibus hic
+                    beatae repellendus praesentium voluptatum at iure
+                    laudantium fuga ratione cum, vitae voluptates.
+                  </p>
+                  <a class="news__link" href="#">Ətraflı</a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== GALLERY -->
+      <section class="gallery">
+        <div class="container">
+          <div class="title-wrapper">
+            <div class="title__lines">
+              <h2 class="gallery__title title">TƏLİM VƏ TƏDBİRLƏRİMİZDƏN</h2>
+            </div>
+          </div>
+          <div class="tabs">
+            <div class="gallery__btns">
+              <button class="tabs__btn-item tabs__btn-item--active">
+                Fotolar
+              </button>
+              <button class="tabs__btn-item">Videolar</button>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="tabs__content-item">
+            <div class="card">
+              <img class="card__img" src="img/gallery-1.jpg" alt="" />
+            </div>
+            <div class="card">
+              <img class="card__img" src="img/gallery-2.jpg" alt="" />
+            </div>
+            <div class="card">
+              <img class="card__img" src="img/gallery-3.jpg" alt="" />
+            </div>
+            <div class="card">
+              <img class="card__img" src="img/gallery-4.jpg" alt="" />
+            </div>
+            <div class="card">
+              <img class="card__img" src="img/gallery-5.jpg" alt="" />
+            </div>
+            <div class="card">
+              <img class="card__img" src="img/gallery-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="container">
+            <div class="tabs__content-item video-box">
+              <div class="card">
+                <img class="card__img" src="img/vid-1.jpg" alt="" />
+                <div class="card__btn">
+                  <i class="fa-regular fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card__img" src="img/vid-2.jpg" alt="" />
+                <div class="card__btn">
+                  <i class="fa-regular fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card__img" src="img/vid-3.jpg" alt="" />
+                <div class="card__btn">
+                  <i class="fa-regular fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card__img" src="img/vid-4.jpg" alt="" />
+                <div class="card__btn">
+                  <i class="fa-regular fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card__img" src="img/vid-5.jpg" alt="" />
+                <div class="card__btn">
+                  <i class="fa-regular fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card__img" src="img/vid-6.jpg" alt="" />
+                <div class="card__btn">
+                  <i class="fa-regular fa-circle-play"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== CLIENTS -->
+      <section class="clients">
+        <div class="container">
+          <div class="title-wrapper">
+            <div class="title__lines clients">
+              <h2 class="news__title title">MÜŞTƏRİLƏRİMİZ</h2>
+            </div>
+          </div>
+          <div class="swiper swiper-clients">
+            <div class="swiper-wrapper swiper-clients">
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-1.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-2.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-3.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-4.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-5.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-6.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-1.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-clients__item">
+                <img class="news__img" src="img/clients-2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== PARTNERS -->
+      <section class="partners">
+        <div class="container">
+          <div class="title-wrapper">
+            <div class="title__lines partners">
+              <h2 class="partners__title title">PARTNYORLARIMIZ</h2>
+            </div>
+          </div>
+          <div class="swiper swiper-partners">
+            <div class="swiper-wrapper swiper-partners">
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-4.jpg" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-5.jpg" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-7.png" alt="" />
+              </div>
+              <div class="swiper-slide swiper-partners">
+                <img class="partners__img" src="img/partners-1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ? =========================== FORM   -->
+      <section class="form">
+        <div class="container">
+          <div class="title-wrapper">
+            <div class="title__lines">
+              <h2 class="form__title title">MÜRACİƏT ET</h2>
+            </div>
+          </div>
+          <form class="apply__form" action="#">
+            <div class="apply__inner">
+              <div class="apply select">
+                <label class="select__label" for="#">Təlim seç*</label>
+                <select id="training-select" class="select__input" name="training">
+                  <option selected="" disabled="">Təlimi seç</option>
+                  <option>Marketing AIR</option>
+                  <option>
+                    Vaxtın və Tapşırıqların Səmərəli İdarə Edilməsi Təlimi
+                  </option>
+                  <option>ƏMAS da praktiki iş</option>
+                  <option>Vergi Yoxlamaları və Vergi Riskləri</option>
+                  <option>Vergi Uçotu</option>
+                  <option>
+                    0-dan başlayanlar üçün mühasibatlıq+ 1 C (8.3)
+                  </option>
+                  <option>HR-lar üçün Excel</option>
+                  <option>
+                    Təqdimat Bacarıqları və Təlimçilər üçün təlim
+                  </option>
+                  <option>HR Assistent Təlimi</option>
+                  <option>Sosial Media Marketinqi</option>
+                  <option>Güclü Marka Yaratma və İdarə Etmə</option>
+                  <option>Marketinq Strategiyaları Təlimi</option>
+                  <option>
+                    0-dan başlayanlar üçün Marketinq Mütəxəssisi Təlimi
+                  </option>
+                  <option>HR Direktor</option>
+                  <option>
+                    Şirkətlərdə Təlim və İnkişaf Sisteminin Qurulması
+                  </option>
+                  <option>İnsan Resurslarının Avtomatlaşdırılması</option>
+                  <option>İnsan Resurslarının İdarə Edilməsi</option>
+                  <option>İşə Qəbul və Seçim Mərhələləri</option>
+                  <option>Əmək Haqqı Hesablaması</option>
+                  <option>Əmək Məcəlləsi və Kadr Kargüzarlığı</option>
+                  <option>
+                    Rəhbərlər üçün Strategiyanın Effektiv Planlaşdırılması və
+                    İcrası
+                  </option>
+                  <option>
+                    Rəhbərlər üçün: Auditoriya önündə təsirli nitq mədəniyyəti
+                    təlimi
+                  </option>
+                  <option>Rəhbərlər üçün Maliyyə Təlimi</option>
+                  <option>
+                    Rəhbərlər üçün Liderlik və Komanda İdarəçiliyi
+                  </option>
+                  <option>Rəhbərlər üçün HR Təlimi</option>
+                  <option>
+                    Rəhbərlər üçün Performans Menecment və İşçilərin
+                    Motivasiyası
+                  </option>
+                  <option>Rəhbərlər üçün Marketinq Təlimi</option>
+                </select>
+              </div>
+              <div class="apply__name">
+                <label class="apply__label" for="#">Ad, Soyad**</label>
+                <input class="apply__input" type="text" placeholder="Ad, Soyad" />
+              </div>
+              <div class="apply__workplace">
+                <label class="apply__label" for="#">İş yeri*</label>
+                <input class="apply__input" type="text" placeholder="İş yeri" />
+              </div>
+              <div class="apply__position">
+                <label class="apply__label" for="#">Vəzifə*</label>
+                <input class="apply__input" type="text" placeholder="Vəzifə" />
+              </div>
+              <div class="apply__mail">
+                <label class="apply__label" for="#">E-mail*</label>
+                <input class="apply__input" type="text" placeholder="E-mail" />
+              </div>
+
+              <div class="apply__phone">
+                <label class="apply__label" for="#">Telefon*</label>
+                <input class="apply__input" type="text" placeholder="Telefon" />
+              </div>
+            </div>
+            <div class="apply__btn">
+              <input class="apply__submit" type="submit" value="Müraciət göndər" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <a href="#" class="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__logo">
+            <a href="#"><img class="footer__img" src="img/footer-logo.svg" alt="" /></a>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Xidmət şəbəkəsi</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="about.html">Haqqımızda</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="trainings.html">Təlimlər</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="trainers.html">Təlimçilər</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="forums.html">Forumlar</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="news.html">Xəbərlər</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="contacts.html">Bizimlə Əlaqə</a>
+            </li>
+          </ul>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Faydalı linklər</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Tez-tez soruşulanlar</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Karyera </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Xidmət şəbəkəsi</a>
+            </li>
+          </ul>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Əlaqə</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="mailto:info@gmail.com"><span class="footer-link__icon"><i
+                    class="fa-solid fa-envelope"></i></span>info@gmail.com</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="tel:+994509999999"><span class="footer-link__icon"><i
+                    class="fa-sharp fa-solid fa-phone"></i></span>994509999999</a>
+            </li>
+            <li>
+              <ol class="footer__social">
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p class="copyright__text">&#169; All Rights Reserved</p>
+    </div>
+    <button class="enquiry__button">
+      <img class="enquiry__icon" src="img/muraciet.png" alt="" />
+      Müraciət et
+    </button>
+    <div class="enquiry__overlay">
+      <div class="enquiry__top">
+        <h3 class="enquiry__title">Müraciət et</h3>
+        <button class="enquiry-close__button">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+      </div>
+      <form class="enquiry__form" action="#">
+        <div class="enquiry__inner">
+          <div class="enquiry__category">
+            <label class="enquiry__label" for="telim-select">Kateqoriya seç*</label>
+            <select id="telim-select" class="enquiry__select">
+              <option selected="" disabled="">Kateqoriya daxil edin</option>
+              <option>Kateqoriya 1</option>
+              <option>Kateqoriya 2</option>
+              <option>Kateqoriya 3</option>
+            </select>
+          </div>
+          <div class="enquiry__category">
+            <label class="enquiry__label" for="category">Təlim seç*</label>
+            <select id="category" class="enquiry__select" name="category">
+              <option selected="" disabled="">Təlimi seç</option>
+              <option>Marketing AIR</option>
+              <option>
+                Vaxtın və Tapşırıqların Səmərəli İdarə Edilməsi Təlimi
+              </option>
+              <option>ƏMAS da praktiki iş</option>
+              <option>Vergi Yoxlamaları və Vergi Riskləri</option>
+              <option>Vergi Uçotu</option>
+              <option>0-dan başlayanlar üçün mühasibatlıq+ 1 C (8.3)</option>
+              <option>HR-lar üçün Excel</option>
+              <option>Təqdimat Bacarıqları və Təlimçilər üçün təlim</option>
+              <option>HR Assistent Təlimi</option>
+              <option>Sosial Media Marketinqi</option>
+              <option>Güclü Marka Yaratma və İdarə Etmə</option>
+              <option>Marketinq Strategiyaları Təlimi</option>
+              <option>
+                0-dan başlayanlar üçün Marketinq Mütəxəssisi Təlimi
+              </option>
+              <option>HR Direktor</option>
+              <option>
+                Şirkətlərdə Təlim və İnkişaf Sisteminin Qurulması
+              </option>
+              <option>İnsan Resurslarının Avtomatlaşdırılması</option>
+              <option>İnsan Resurslarının İdarə Edilməsi</option>
+              <option>İşə Qəbul və Seçim Mərhələləri</option>
+              <option>Əmək Haqqı Hesablaması</option>
+              <option>Əmək Məcəlləsi və Kadr Kargüzarlığı</option>
+              <option>
+                Rəhbərlər üçün Strategiyanın Effektiv Planlaşdırılması və
+                İcrası
+              </option>
+              <option>
+                Rəhbərlər üçün: Auditoriya önündə təsirli nitq mədəniyyəti
+                təlimi
+              </option>
+              <option>Rəhbərlər üçün Maliyyə Təlimi</option>
+              <option>Rəhbərlər üçün Liderlik və Komanda İdarəçiliyi</option>
+              <option>Rəhbərlər üçün HR Təlimi</option>
+              <option>
+                Rəhbərlər üçün Performans Menecment və İşçilərin Motivasiyası
+              </option>
+              <option>Rəhbərlər üçün Marketinq Təlimi</option>
+            </select>
+          </div>
+          <div class="enquiry__name">
+            <label class="enquiry__label" for="name">Ad, Soyad**</label>
+            <input class="enquiry__input" id="name" name="name" type="text" placeholder="Ad, Soyad" />
+          </div>
+          <div class="enquiry__workplace">
+            <label class="enquiry__label" for="workplace">İş yeri*</label>
+            <input class="enquiry__input" id="workplace" name="workplace" type="text" placeholder="İş yeri" />
+          </div>
+          <div class="enquiry__position">
+            <label class="enquiry__label" for="position">Vəzifə*</label>
+            <input class="enquiry__input" id="position" type="text" placeholder="Vəzifə" />
+          </div>
+          <div class="enquiry__mail">
+            <label class="enquiry__label" for="mail">E-mail*</label>
+            <input class="enquiry__input" id="mail" type="text" placeholder="E-mail" />
+          </div>
+
+          <div class="enquiry__phone">
+            <label class="enquiry__label" for="phone">Telefon*</label>
+            <input class="enquiry__input" id="phone" type="text" placeholder="Telefon" />
+          </div>
+        </div>
+        <div class="enquiry__btn">
+          <input class="enquiry__submit" type="submit" value="Müraciət göndər" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

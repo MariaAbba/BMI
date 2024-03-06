@@ -1,0 +1,120 @@
+@keyframes pulse-2 {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+  80% {
+    box-shadow: 0 0 0 10px rgba(255, 134, 134, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 134, 134, 0);
+  }
+}
+@keyframes pulse-1 {
+  0% {
+    box-shadow: 0 0 0 0 #193263;
+  }
+  80% {
+    box-shadow: 0 0 0 10px rgba(255, 134, 134, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 134, 134, 0);
+  }
+}
+@keyframes phone-animation {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(12deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(-12deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes envelope-animation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes gallery-wrapper {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10%;
+  width: 100%;
+  height: 1px;
+  transition: 0.3s;
+  transform: scaleX(0);
+  background-color: transparent;
+}
+
+::-moz-selection {
+  background: #193263;
+  color: #fff;
+}
+
+::selection {
+  background: #193263;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #28364b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #28364b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a5aaad;
+}
+
+::-moz-selection {
+  background-color: #28364b;
+  color: #fff;
+}
+
+::selection {
+  background-color: #28364b;
+  color: #fff;
+}
+
+.title {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #3e3b3b;
+  text-align: center;
+}
